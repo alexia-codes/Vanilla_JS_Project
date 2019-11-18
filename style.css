@@ -38,22 +38,23 @@ li {
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
+    text-transform: capitalize;
 }
 
-.temperature img {
+.app-temperature img {
     margin-right: 10px;
     height: 64px;
     width: 64px;
 }
 
-.temperature strong {
+.app-temperature strong {
     color: rgb(33, 33, 33);
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
 }
 
-.temperature .units {
+.app-temperature .units {
     position: relative;
     font-size: 16px;
     top: -34px;
