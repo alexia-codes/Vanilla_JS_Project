@@ -3,7 +3,7 @@
     padding: 50px;
     margin: 30px;
     border-radius: 20px;
-    width: 500px;
+    max-width: 600px;
 }
 
 header {
