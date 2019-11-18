@@ -5,102 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project 1</title>
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:500|Encode+Sans+Expanded:500|Encode+Sans+Semi+Condensed:500|Encode+Sans+Semi+Expanded:500|Encode+Sans:500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/108c4bd78c.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Vanilla JS Project</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <header>
-
-        </header>
-        <section>
+        <div class="app">
+            <h1>
+                Lisbon
+            </h1>
+            <ul>
+                <li>
+                    Monday | 16:00
+                </li>
+                <li>
+                    Sunny
+                </li>
+            </ul>
             <div class="row">
                 <div class="col-6">
-                    <h1 id="location">
-                        <i class="fas fa-map-marker-alt"></i> Lisbon
-                    </h1>
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="sun"> 14°C | °F
                 </div>
-                <div class="col-4">
-                    <form id="location-search">
-                        <input type="text" id="location-input">
-                        <input type="submit" value="Search">
-                    </form>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="table">
-                <div class="row">
-                    <div class="col-6">
-                        <h2 id="time">
-                            10:00
-                        </h2>
-                    </div>
-                    <div class="col-6">
-                        <h4 id="temperature">
-                            <i class="fas fa-cloud"></i> 20° <a href="#">C</a> | <a href="#">F</a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h3 id="date">
-                            Tuesday, 8 October
-                        </h3>
-                    </div>
-                    <div class="col-2">
-                        <small class="units">
-                    Precipation | 10%
-                    </small>
-                    </div>
-                    <div class="col-2">
-                        <small class="units">
-                    Wind | 35km/h
-                    </small>
-                    </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            Precipitation: 0%
+                        </li>
+                        <li>
+                            Humidity: 63%
+                        </li>
+                        <li>
+                            Wind: 23km/h
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="row">
-                <div class="col">
-                    <big class="days">
-                        Day 1 <i class="fas fa-cloud"></i>
-                    </big>
-                </div>
-                <div class="col">
-                    <big class="days"> 
-                        Day 2 <i class="fas fa-sun"></i>
-                        </big>
-                </div>
-                <div class="col">
-                    <big class="days"> 
-                        Day 3 <i class="fas fa-cloud-sun"></i>
-                    </big>
-                </div>
-                <div class="col">
-                    <big class="days"> 
-                        Day 4 <i class="fas fa-cloud-sun"></i>
-                    </big>
-                </div>
-                <div class="col">
-                    <big class="days"> 
-                        Day 5 <i class="fas fa-cloud-rain"></i>
-                    </big>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <small>
-                    <a href="https://github.com/alexia-codes/6_homework">Open source code</a> by Alexia Katrantzis
-            </small>
-        </footer>
-    </div>
+        </div>
+        <small>
+            <a href="https://github.com/alexia-codes/Vanilla_JS_Project" target="_blank">Open source code</a> by Alexia Katrantzis
+        </small>
     </div>
     <script src="script.js"></script>
 </body>
