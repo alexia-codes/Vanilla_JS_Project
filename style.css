@@ -1,0 +1,76 @@
+.container {
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #eeeeee;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 72px;
+}
+
+h1 i {
+    color: #eeeeee;
+    font-size: xx-large;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #eeeeee;
+    font-size: 72px;
+}
+
+h3 {
+    color: #eeeeee;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 24px;
+}
+
+h4 {
+    color: #eeeeee;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 24px;
+}
+
+h4 i {
+    color: #eeeeee;
+}
+
+.time {
+    color: #eeeeee;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.date {
+    color: #37474f;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+i {
+    color: #37474f;
+    font-size: xx-large;
+}
+
+form {
+    color: #37474f;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.units {
+    color: #eeeeee;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+footer {
+    text-align: center;
+}
