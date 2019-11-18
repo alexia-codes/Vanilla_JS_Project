@@ -2,12 +2,19 @@ body {
     font-family: arial, sans-serif;
 }
 
-.app {
+.wrapper {
     max-width: 600px;
     margin: 30px auto;
+}
+
+.app {
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 5px;
+}
+
+.overview {
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -31,4 +38,23 @@ li {
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
+}
+
+.temperature img {
+    margin-right: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+.temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
 }

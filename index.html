@@ -12,38 +12,47 @@
 
 <body>
     <div class="container">
-        <div class="app">
-            <h1>
-                Lisbon
-            </h1>
-            <ul>
-                <li>
-                    Monday | 16:00
-                </li>
-                <li>
-                    Sunny
-                </li>
-            </ul>
-            <div class="row">
-                <div class="col-6">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="sun"> 14°C | °F
-                </div>
-                <div class="col-6">
+        <div class="wrapper">
+            <div class="app">
+                <div class="overview">
+                    <h1>
+                        Lisbon
+                    </h1>
                     <ul>
                         <li>
-                            Precipitation: 0%
+                            Monday | 16:00
                         </li>
                         <li>
-                            Humidity: 63%
-                        </li>
-                        <li>
-                            Wind: 23km/h
+                            Sunny
                         </li>
                     </ul>
                 </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="clearfix temperature">
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="sun" class="float-left">
+                            <div class="float-left">
+                                <strong>14</strong><small class="units">°C | <a href="#">°F</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                Precipitation: 0%
+                            </li>
+                            <li>
+                                Humidity: 63%
+                            </li>
+                            <li>
+                                Wind: 23km/h
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <small>
-                <a href="https://github.com/alexia-codes/Vanilla_JS_Project" target="_blank">Open source code</a> by Alexia Katrantzis
+            <a href="https://github.com/alexia-codes/Vanilla_JS_Project" target="_blank">Open source code</a> by Alexia Katrantzis
             </small>
         </div>
     </div>
