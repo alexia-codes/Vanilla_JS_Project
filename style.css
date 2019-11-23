@@ -1,5 +1,5 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 .wrapper {
@@ -8,9 +8,10 @@ body {
 }
 
 .app {
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    padding: 50px;
+    border: 1px solid #37474f;
+    border-radius: 20px;
 }
 
 .overview {
@@ -18,7 +19,7 @@ body {
 }
 
 h1 {
-    color: #878787;
+    color: #eeeeee;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
@@ -34,7 +35,7 @@ li {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: #878787;
+    color: #eeeeee;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -51,7 +52,7 @@ li:first-letter {
 }
 
 .app-temperature strong {
-    color: rgb(33, 33, 33);
+    color: #eeeeee;
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
@@ -60,5 +61,15 @@ li:first-letter {
 .app-temperature .units {
     position: relative;
     font-size: 16px;
+    color: #eeeeee;
     top: -34px;
+}
+
+.app-temperature .active {
+    color: #eeeeee;
+    cursor: default;
+}
+
+.app-temperature .active:hover {
+    text-decoration: none;
 }
